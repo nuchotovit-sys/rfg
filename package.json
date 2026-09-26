@@ -1,0 +1,20 @@
+{
+  "name": "tg-game-bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот: /start -> кнопка Open App, ссылка на игру, привязка аккаунта в базе данных",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "migrate": "node src/migrate.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "pg": "^8.13.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
